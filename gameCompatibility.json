@@ -2841,9 +2841,13 @@
     "IntelSupport": 0,
     "SetupDetails": [
       {
-        "Category": "",
-        "Details": "For This game to work on TeknoS11 software, you must acquire the Sys573 Bios. needs to be in the same location as your CHD and ROM for this game to boot. ",
-        "BulletPoints": []
+        "Category": "Setup for sucessful boot:",
+        "Details": "you need a number of files for this game to boot correctly.",
+        "BulletPoints": [
+          "BIOS: sys573.zip",
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "CHD: a34jaa02.chd"
+        ]
       }
     ],
     "CommonIssues": [
@@ -2901,13 +2905,18 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [
+    "SetupDetails": [
       {
-        "Question": "",
-        "Answer": ""
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files aswell in the same directory as your rom.",
+        "BulletPoints": [
+          "BIOS: sys573.zip",
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "CHD: a34jba02.chd"
+        ]
       }
     ],
+    "CommonIssues": [],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2926,9 +2935,13 @@
     "IntelSupport": 0,
     "SetupDetails": [
       {
-        "Category": "",
-        "Details": "For This game to work on TeknoS11 software, you must acquire the Sys573 Bios. needs to be in the same location as your CHD and ROM for this game to boot. ",
-        "BulletPoints": []
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files aswell in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "CHD: a27jaa02.chd"
+        ]
       }
     ],
     "CommonIssues": [
@@ -2953,7 +2966,17 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files aswell in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "Device Files: k573_dio.zip & k573mcr.zip",
+          "CHD: c36jaa02.chd"
+        ]
+      }
+    ],
     "CommonIssues": [
       {
         "Question": "Not in free play straight away.",
@@ -2976,7 +2999,17 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "device: k573_dio.zip",
+          "CHD: 905aaa02.chd"
+        ]
+      }
+    ],
     "CommonIssues": [],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
@@ -2994,7 +3027,17 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "device: k573_dio.zip",
+          "chd: 894jaa02.chd"
+        ]
+      }
+    ],
     "CommonIssues": [],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
@@ -3012,11 +3055,25 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "device: k573_dio.zip",
+          "chd: a44uaa02.chd"
+        ]
+      }
+    ],
     "CommonIssues": [
       {
         "Question": "Not in free play By default",
         "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      },
+      {
+        "Question": "",
+        "Answer": ""
       }
     ],
     "FeaturesNotEmulated": [],
@@ -3107,7 +3164,16 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "Chd: gc845eba.chd"
+        ]
+      }
+    ],
     "CommonIssues": [
       {
         "Question": "Not in free play By default",
