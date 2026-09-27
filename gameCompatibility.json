@@ -3191,12 +3191,22 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
+    "MultiplayerType": 1,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "Bios: sys573.zip",
+          "device: k573_dio.zip",
+          "chd: 936eaa.chd"
+        ]
+      }
+    ],
     "CommonIssues": [
       {
         "Question": "Not in free play By default",
@@ -3214,12 +3224,22 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
+    "MultiplayerType": 1,
     "MultiplayerDetails": null,
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files as well in the same directory as your rom.",
+        "BulletPoints": [
+          "bios: sys573.zip",
+          "device: k573_dio.zip",
+          "CHD: c23eaa02.chd"
+        ]
+      }
+    ],
     "CommonIssues": [
       {
         "Question": "Not in free play By default",
