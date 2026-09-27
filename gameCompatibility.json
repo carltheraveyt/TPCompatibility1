@@ -2676,12 +2676,18 @@
     "Description": "Released on Konami PC-Based in 2013.",
     "IconUrl": "https://raw.githubusercontent.com/teknogods/TeknoParrotUIThumbnails/master/Icons/DanceDanceRevolution2013.png",
     "Genre": "Rhythm",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 1,
+    "MultiplayerDetails": "2 local on one machine",
     "NvidiaSupport": 0,
-    "AmdSupport": 4,
+    "AmdSupport": 1,
     "IntelSupport": 4,
-    "SetupDetails": [],
+    "SetupDetails": [
+      {
+        "Category": "Game File needed",
+        "Details": "It requires the mdxja_945.dll which can be found in the modules folder of your game directory. ",
+        "BulletPoints": []
+      }
+    ],
     "CommonIssues": [],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
@@ -2699,19 +2705,8 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [
-      {
-        "Category": "ROM Infomation",
-        "Details": "For This game to work on TeknoS11 software, you must acquire the Sys573 Bios. needs to be in the same location as your CHD and ROM for this game to boot. ",
-        "BulletPoints": []
-      }
-    ],
-    "CommonIssues": [
-      {
-        "Question": "Not in free play By default",
-        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
-      }
-    ],
+    "SetupDetails": [],
+    "CommonIssues": [],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2728,8 +2723,22 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "Required files alongside the ROM:",
+        "Details": "In Order to get this game to run you need the following files.",
+        "BulletPoints": [
+          "BIOS: sys573.zip",
+          "CHD: 895jaa02.chd"
+        ]
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2764,8 +2773,23 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "Required files alongside the ROM:",
+        "Details": "you need a number of files for this game to boot correctly.",
+        "BulletPoints": [
+          "BIOS: sys573.zip",
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "CHD: a22jaa02.chd"
+        ]
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play straight away.",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes using P1 buttons and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2777,13 +2801,28 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 1,
+    "MultiplayerDetails": "2 Local on one machine",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for sucessful boot:",
+        "Details": "you need a number of files for this game to boot correctly.",
+        "BulletPoints": [
+          "BIOS: sys573.zip",
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "CHD: a33aaa02.chd"
+        ]
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "No Free Play?",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes using P1 buttons and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2800,8 +2839,19 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "",
+        "Details": "For This game to work on TeknoS11 software, you must acquire the Sys573 Bios. needs to be in the same location as your CHD and ROM for this game to boot. ",
+        "BulletPoints": []
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play straight away.",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2813,13 +2863,28 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 0,
+    "MultiplayerDetails": "None. It was released as a 1P only. ",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "Setup for the game:",
+        "Details": "Alongside the ROM itself you need the following files aswell in the same directory as your rom.",
+        "BulletPoints": [
+          "Device files: k573_dio.zip & k573mcr.zip",
+          "BIOS: sys573.zip",
+          "CHD: a34jba02.chd"
+        ]
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Not In Free Play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2831,13 +2896,18 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 0,
+    "MultiplayerDetails": "None. It was released as a 1P Only.",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "",
+        "Answer": ""
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2854,8 +2924,19 @@
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
-    "SetupDetails": [],
-    "CommonIssues": [],
+    "SetupDetails": [
+      {
+        "Category": "",
+        "Details": "For This game to work on TeknoS11 software, you must acquire the Sys573 Bios. needs to be in the same location as your CHD and ROM for this game to boot. ",
+        "BulletPoints": []
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2873,7 +2954,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play straight away.",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -2885,8 +2971,8 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 0,
+    "MultiplayerDetails": "None. It was released as a 1P only.",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
@@ -2903,8 +2989,8 @@
     "Description": "Released on KonamiSystem573.",
     "IconUrl": "",
     "Genre": "Action",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 0,
+    "MultiplayerDetails": "None. Machine was released as a 1P only.",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 0,
@@ -2927,7 +3013,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3017,7 +3108,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3035,7 +3131,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3053,7 +3154,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3071,7 +3177,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3089,7 +3200,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3107,7 +3223,12 @@
     "AmdSupport": 0,
     "IntelSupport": 0,
     "SetupDetails": [],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Not in free play By default",
+        "Answer": "To Put it into free play, Press your service button, Navigate using P1's left and right buttons (Not Pad left + Right) up to Coin Settings. From there use P2's Left and right buttons to switch Free Play to ON. Save the changes and exit out of service mode by selecting Game Mode. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -3804,7 +3925,9 @@
     "IntelSupport": 4,
     "SetupDetails": [],
     "CommonIssues": [],
-    "FeaturesNotEmulated": [],
+    "FeaturesNotEmulated": [
+      "Ticket payout"
+    ],
     "OverallStatus": 4,
     "DevOnly": false
   },
@@ -3888,7 +4011,9 @@
       }
     ],
     "CommonIssues": [],
-    "FeaturesNotEmulated": [],
+    "FeaturesNotEmulated": [
+      "Motion Seat."
+    ],
     "OverallStatus": 0,
     "DevOnly": false
   },
@@ -8478,7 +8603,12 @@
         "BulletPoints": []
       }
     ],
-    "CommonIssues": [],
+    "CommonIssues": [
+      {
+        "Question": "Antivirus issues",
+        "Answer": "Luigi mansion can be flagged as a false positive. "
+      }
+    ],
     "FeaturesNotEmulated": [],
     "OverallStatus": 0,
     "DevOnly": false
@@ -8803,14 +8933,27 @@
     "Description": "Released on Namco ES3A in 2013.",
     "IconUrl": "https://raw.githubusercontent.com/teknogods/TeknoParrotUIThumbnails/master/Icons/MKDXUSA.png",
     "Genre": "Racing",
-    "MultiplayerType": 4,
-    "MultiplayerDetails": null,
+    "MultiplayerType": 3,
+    "MultiplayerDetails": "4 Players Online / LAN",
     "NvidiaSupport": 0,
     "AmdSupport": 0,
     "IntelSupport": 4,
-    "SetupDetails": [],
-    "CommonIssues": [],
-    "FeaturesNotEmulated": [],
+    "SetupDetails": [
+      {
+        "Category": "Executable Location:",
+        "Details": "You will find the MK_AGP3_FINAL.exe file in the root directory for the game. ",
+        "BulletPoints": []
+      }
+    ],
+    "CommonIssues": [
+      {
+        "Question": "Staff Credits doesn't show after getting #1 on mirror course of Round 4 Bowser Castle",
+        "Answer": "We don't know how to resolve this, "
+      }
+    ],
+    "FeaturesNotEmulated": [
+      "Webcam."
+    ],
     "OverallStatus": 0,
     "DevOnly": false
   },
